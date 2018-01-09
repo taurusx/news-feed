@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/grey_background">
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/height_listview_item_min"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/padding_listview_textcontainer_top"
+        android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight"
+        android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+        android:paddingTop="@dimen/padding_listview_textcontainer_top">
+
+        <TextView
+            android:id="@+id/textview_listview_category"
+            style="@style/NewsInfoStyle"
+            tools:text="John Smith  @  TECHNOLOGY" />
+
+        <TextView
+            android:id="@+id/textview_listview_title"
+            style="@style/NewsTitleStyle"
+            tools:text="Experts have no doubts: 'Bitcoin price suggests it's a bubble'" />
+
+        <TextView
+            android:id="@+id/textview_listview_date"
+            style="@style/NewsInfoStyle"
+            tools:text="Yesterday    (or 27/11/2017 11:11)" />
+    </LinearLayout>
+</RelativeLayout>

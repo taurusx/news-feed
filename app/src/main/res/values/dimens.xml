@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Height of each list item -->
+    <dimen name="height_listview_item_min">60dp</dimen>
+
+    <!-- Top padding of text container in list item -->
+    <dimen name="padding_listview_textcontainer">16dp</dimen>
+    <!-- Top padding of text container in list item -->
+    <dimen name="padding_listview_textcontainer_top">8dp</dimen>
+    <!-- Padding between text views in container in list item -->
+    <dimen name="padding_listview_textcontainer_between">4dp</dimen>
+
+    <!-- Small text size - date od publication -->
+    <dimen name="textsize_listview_info">12sp</dimen>
+
+    <!-- Tab indicator height -->
+    <dimen name="height_tabview_indicator">3dp</dimen>
+</resources>

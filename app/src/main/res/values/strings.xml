@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- =========== -->
+    <!-- Application -->
+    <!-- =========== -->
+
+    <!-- Title for the application. [CHAR LIMIT=24] -->
+    <string name="app_name">The Guardian News Feed</string>
+
+    <!-- Default text to show when no news
+  fot the specific parameters are given [CHAR LIMIT=NONE] -->
+    <string name="fragment_textview_nonews">No news related to current topic have been found.</string>
+    <!-- Default text to show when Internet connection cannot be established [CHAR LIMIT=NONE] -->
+    <string name="fragment_textview_nointernet">No Internet connection.</string>
+    <!-- Default text to show when the data is fetched from the Internet [CHAR LIMIT=NONE] -->
+    <string name="fragment_textview_loading">Please wait while the data is being loaded.</string>
+
+    <!-- =========== -->
+    <!-- Categories -->
+    <!-- =========== -->
+
+    <!-- Category name for technology [CHAR LIMIT=20] -->
+    <string name="category_technology">technology</string>
+    <!-- Category name for technology [CHAR LIMIT=20] -->
+    <string name="category_world">world</string>
+    <!-- Category name for technology [CHAR LIMIT=20] -->
+    <string name="category_science">science</string>
+    <!-- Category name for technology [CHAR LIMIT=20] -->
+    <string name="category_business">business</string>
+
+</resources>
+

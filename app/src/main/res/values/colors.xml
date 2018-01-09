@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#009688</color>
+    <color name="colorPrimaryDark">#00695C</color>
+    <color name="colorAccent">#ff4081</color>
+
+    <!-- Background color for app -->
+    <color name="grey_background">#f6f2f7</color>
+    <!-- Black transparent -->
+    <color name="black_transparent">#CC000000</color>
+
+    <!-- Text color for the not selected Tabs -->
+    <color name="category_text_not_selected">#2b564c</color>
+</resources>
